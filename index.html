@@ -4,10 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page with Stylus</title>
+  <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-  <header class="header"></header>
-  <main class="main"></main>
-  <footer class="footer"></footer>
+  <header class="header">
+    <nav class="header__nav">
+      <menu class="header__nav-menu">
+        <li class="header__nav-menu-item"><a href="">Home</a></li>
+        <li class="header__nav-menu-item"><a href="">Shots</a></li>
+        <li class="header__nav-menu-item"><a href="">Profile</a></li>
+      </menu>
+    </nav>
+    <aside>
+      <div class="header__username">
+        <a href="">Username</a>
+      </div>
+    </aside>
+  </header>
+  <main class="main">
+    <article class="">
+      <h1 class="main__title">Hello <strong>World</strong></h1>
+      <p class="main__text">
+        Lorem ipsum dolor sit amet, <br/>
+        consectetur adipisicing elit.<br/>
+        Aenean <strong>dolor</strong> nisi.
+      </p>
+    </article>
+    <aside class="main__image">
+      <img src="./assets/img/main-img.jpg" alt="Main Image">
+    </aside>
+  </main>
+  <footer class="footer">
+    <h3 class="footer__text">Made for xxxx 2020</h3>
+  </footer>
 </body>
 </html>

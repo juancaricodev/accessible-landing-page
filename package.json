@@ -1,0 +1,22 @@
+{
+  "name": "stylus-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page usign stylus preprocessor",
+  "main": "index.js",
+  "scripts": {
+    "stylus": "stylus -w ./assets/styles/style.styl -o ./assets/styles/style.css",
+    "start": "live-server"
+  },
+  "keywords": [
+    "stylus",
+    "html",
+    "web",
+    "accessibility"
+  ],
+  "author": "Juan Camilo Rico Orjuela <juancarico92@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "stylus": "^0.54.7"
+  }
+}
