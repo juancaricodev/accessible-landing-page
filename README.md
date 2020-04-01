@@ -1,9 +1,30 @@
-# Stylus Landing Page
+# Accessible Landing Page
 
-This time, we're gonna make a landing page, all from scratch.
+This is an example of a landing page using Stylus as CSS Preprocessor. This project also implements good practices in order to satisfy the Web Accessibility needs.
 
 ## Technologies
 
-## Fullscreen View
+* HTML5
 
-## Responsive View
+* CSS3
+
+* Stylus
+
+## Page Preview
+
+![Preview](./assets/img/preview.jpg "Page Preview")
+
+### Install
+```
+npm install
+```
+
+### Run Project
+```
+npm run start
+```
+
+### Compile Stylus into CSS
+```
+npm run stylus
+```
