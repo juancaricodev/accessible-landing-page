@@ -2,6 +2,10 @@
 
 This is an example of a landing page using Stylus as CSS Preprocessor. This project also implements good practices in order to satisfy the Web Accessibility needs.
 
+## Demo
+
+Check the result [here!](https://juancarico92.github.io/accessible-landing-page/)
+
 ## Technologies
 
 * HTML5
